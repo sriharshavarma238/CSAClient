@@ -1,9 +1,6 @@
 import React, { use, useState } from "react";
 import { useNavigate } from "react-router-dom";
-
-
-API_BASE_URL = "https://cs-aserver.vercel.app"
-
+import { API_BASE_URL } from "../../config";
 
 const UserSignin = () => {
   const navigate = useNavigate();

@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import UserNavbar from '../../components/UserNavbar';
+import { API_BASE_URL } from '../../config';
 
-
-API_BASE_URL = "https://cs-aserver.vercel.app"// const API_BASE_URL = "http://localhost:3000";
 const UserPurchases = () => {
   const [purchases, setPurchases] = useState([]);
   const [loading, setLoading] = useState(true);

@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import AdminNavbar from '../../components/AdminNavbar';
-
-const API_BASE_URL = "https://cs-aserver.vercel.app";
+import { API_BASE_URL } from '../../config';
 
 const AdminEditCourse = () => {
   const navigate = useNavigate();

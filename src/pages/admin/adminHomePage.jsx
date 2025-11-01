@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import AdminNavbar from '../../components/AdminNavbar';
 import { useNavigate } from 'react-router-dom';
-
-
-API_BASE_URL = "https://cs-aserver.vercel.app"
+import { API_BASE_URL } from '../../config';
 
 const AdminHomePage = () => {
   const [courses, setCourses] = useState([]);
