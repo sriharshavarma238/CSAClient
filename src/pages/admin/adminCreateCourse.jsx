@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import AdminNavbar from '../../components/AdminNavbar';
 
-const API_BASE_URL = "https://csa-server-3cb2.vercel.app";
-
+API_BASE_URL = "https://cs-aserver.vercel.app"
 const AdminCreateCourse = () => {
   const navigate = useNavigate();
   const [message, setMessage] = useState('');

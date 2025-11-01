@@ -2,8 +2,7 @@ import React, { useEffect, useState } from 'react';
 import UserNavbar from '../../components/UserNavbar';
 
 
-const API_BASE_URL = "https://csa-server-3cb2.vercel.app";
-// const API_BASE_URL = "http://localhost:3000";
+API_BASE_URL = "https://cs-aserver.vercel.app"// const API_BASE_URL = "http://localhost:3000";
 const UserPurchases = () => {
   const [purchases, setPurchases] = useState([]);
   const [loading, setLoading] = useState(true);

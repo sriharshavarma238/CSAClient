@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import UserNavbar from '../../components/UserNavbar';
 
-const API_BASE_URL = "https://csa-server-3cb2.vercel.app";
-
+API_BASE_URL = "https://cs-aserver.vercel.app"
 const UserHomePage = () => {
   const [courses, setCourses] = useState([]);
 
